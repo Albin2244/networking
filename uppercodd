@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "enter the file name"
+read f1
+if test -e $f1
+then
+echo "contents of file"
+cat $f1
+echo "contents changed to uppercase"
+tr '[a-z]' '[A-Z]' <$f1
+else
+echo "file not found"
+fi
