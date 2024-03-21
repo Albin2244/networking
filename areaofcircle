@@ -1,0 +1,13 @@
+echo "Enter the radius:"
+read r
+area=`echo 3.14\*$r\*$r|bc`
+cir=`echo 2\*3.14\*$r|bc`
+echo "Area:$area"
+echo "Circumference :$cir"
+output
+mlm@mlm-H81:~/Desktop/albinnetworking$ chmod +x area.sh
+mlm@mlm-H81:~/Desktop/albinnetworking$ ./area.sh
+Enter the radius:
+4
+Area:50.24
+Circumference :25.12
