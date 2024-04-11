@@ -11,3 +11,13 @@ num1=$num2
 num2=$next
 done
 echo ""
+
+output
+mlm@mlm-H81:~/Desktop/albinnetworking$ chmod +x fibanocci.sh
+\mlm@mlm-H81:~/Desktop/albinnetworking$ ./fibanocci.sh
+Enter the length of the Fibonacci series:
+5
+0 1 1 2 3 
+mlm@mlm-H81:~/Desktop/albinnetworking$ 
+
+
